@@ -23,7 +23,7 @@ Set of tools deployed
    c) Pynaoqi-SDK: A python library used for programming Nao. Its x86 version can be downloaded from Softbank website.
    d) JRE: JRE is Java Runtime Environment which is a prerequisite for Eclipse and is not needed for python IDEs. We have used jre-8u211-windows-x64 can downloaded from Oracle websites
    e) Eclipse: For configuring Eclipse to use python we need to download eclipse-committers-neon-R-win32-x86_64. For configuring it we followed the instructions on https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/eclipsepython%20neon.html	
-  B) All requied python libraries can be installed using Command Prompt using the command without inverted commas "PYTHON_PATH\Scripts\pip.exe install opencv-python". (Where PYTHON_PATH is the  path to the Python installation directory, for example C:\Python27 )
+  B) All requied python libraries can be installed using Command Prompt using the command without inverted commas "PYTHON_PATH\Scripts\pip.exe install opencv-python". (Where PYTHON_PATH is the  path to the Python installation directory, for example C:\Python27 ). Numpy comes along with opencv and repeat the same procedure for pillow.
 2) For Ubuntu 16.04
   A) Softwares
      a) Choregraphe.run file is available from Softbank's site. Just change the permission of this file in properties to "run the file as executable file" and intall it just double clicking like any other normal software.
