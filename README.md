@@ -46,7 +46,7 @@ All requied python libraries can be installed using Command Prompt using the com
  
  b) Pynaoqi can be downloaded from Softbank Robotics Website either x86 or x64 according to your needs and extracted to a known location. Later we have to give its path as environment variable in bashsrc file. Type in terminal without inverted commas "sudo gedit ~/.bashrc" and add this line without inverted commas " export PYTHONPATH=${PYTHONPATH}:address". (Where address is the path to the location where you have extracted pynaoqi, for exaample /home/Downloads/pynaoqi-python-2.7-naoqi-2.1.4-linux64)
 
-##### B) Libraries
+#### B) Libraries
 All requires All requied python libraries can be installed using termianl using these two commands one by one 1) sudo apt-get install python-pip 2) sudo pip install opencv-python
 
 ## Description of the files
