@@ -8,18 +8,20 @@ In this project we are programming Nao, a humanoid robot to kick a ball to a goa
 Set of tools deployed
 
 1) For Windows 
+
   OS: Windows 10
   Softwares: Choregraphe, Python, Pynaoqi-SDK, JRE, Eclipse (or any Python Development IDE)
   Python Libraries: Opencv, Numpy, Pillow
 
 2) For Ubuntu
+
   OS: Ubuntu 16.04 versions (no other version of Ubuntu works for Choregraphe for linux)
   Software: Choregraphe, Pynaoqi-SDK
   Pyhthon Libraries: Opencv, Numpy, Pillow
   
 ## Installing
 
-1) For Windows
+### 1) For Windows
  
  A) Softwares
   
@@ -35,15 +37,15 @@ Set of tools deployed
  
  B) All requied python libraries can be installed using Command Prompt using the command without inverted commas "PYTHON_PATH\Scripts\pip.exe install opencv-python". (Where PYTHON_PATH is the  path to the Python installation directory, for example C:\Python27 ). Numpy comes along with opencv and repeat the same procedure for pillow.
 
-2) For Ubuntu 16.04
+### 2) For Ubuntu 16.04
 
-A) Softwares
+####  A) Softwares
  
  a) Choregraphe.run file is available from Softbank's site. Just change the permission of this file in properties to "run the file as executable file" and intall it just double clicking like any other normal software.
  
  b) Pynaoqi can be downloaded from Softbank Robotics Website either x86 or x64 according to your needs and extracted to a known location. Later we have to give its path as environment variable in bashsrc file. Type in terminal without inverted commas "sudo gedit ~/.bashrc" and add this line without inverted commas " export PYTHONPATH=${PYTHONPATH}:address". (Where address is the path to the location where you have extracted pynaoqi, for exaample /home/Downloads/pynaoqi-python-2.7-naoqi-2.1.4-linux64)
 
-B) All requires All requied python libraries can be installed using termianl using these two commands one by one 1) sudo apt-get install python-pip 2) sudo pip install opencv-python
+##### B) All requires All requied python libraries can be installed using termianl using these two commands one by one 1) sudo apt-get install python-pip 2) sudo pip install opencv-python
 
 ## Description of the files
 
@@ -53,13 +55,13 @@ Penalty_Kick: Codes for making NAO kick redball kick redball kept in front to th
 
 ## Addition Deployment Notes
 
-1) Windows
+### 1) Windows
  
  a) For eclipse to run we need to have Windows, JRE and Eclipse trio in either x86 or x64 version
  
  b) We need to manually add two file given in this link -- https://www.robotlab.com/support/choregraphe-bin.exe-system-error-fix
 
-2) Ubuntu
+### 2) Ubuntu
  
  In our case adding address of pynaoqi didn't work because of some error So, we linked used Choregraphe's naoqi. We logged in to ubuntu as root user (very risky, if want to do it do it at your own risk) and went to opt folder renamed the folder Softbank Robotics to Softbank. And the further entered in and changed the name of Choregraphe 2.8.5.10 to Choregraphe. Finally, add the address of site-pachages folder as path as we did above for pynaoqi. In this case address would be similar to /opt/Softbank/Choregraphe/Lib/python2.7/site-packages. 
 
