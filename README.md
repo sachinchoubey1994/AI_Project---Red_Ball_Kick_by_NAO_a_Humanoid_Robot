@@ -51,7 +51,7 @@ All requires All requied python libraries can be installed using termianl using 
 
 ## Description of the files
 
-Locate_Ball_Kick: Codes for making NAO kick redball present anywhere (maximum distace of 1.5 m) in frontal hemispherical plane of NAO. Codes are still needs modification. As it is not able to detect the landmark (probably needs modification in parameter values)
+Locate_Ball_Kick: Codes for making NAO kick redball present anywhere (maximum distace of 1.5 m) in frontal hemispherical plane of NAO. Codes are still needs modification. As it is not able to detect the landmark symbol (probably needs modification in parameter values)
 
 Penalty_Kick: Codes for making NAO kick redball kick redball kept in front to the goal post, all in line (maximum distance inbetween NAO and goal canot be more than 2 m). Still need further improvement.
 
