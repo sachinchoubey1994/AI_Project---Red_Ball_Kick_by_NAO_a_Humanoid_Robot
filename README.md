@@ -17,7 +17,8 @@ Set of tools deployed
   
 ## Installing
 1) For Windows
-  A) Softwares
+ 
+ A) Softwares
   
   a) Choregraphe: A tool to control and monitor Nao and Pepper Robot. We have used Choregraphe 2.8.5.10 which can be downloaded from Softbanks Robotics website.
   
@@ -32,7 +33,8 @@ Set of tools deployed
  B) All requied python libraries can be installed using Command Prompt using the command without inverted commas "PYTHON_PATH\Scripts\pip.exe install opencv-python". (Where PYTHON_PATH is the  path to the Python installation directory, for example C:\Python27 ). Numpy comes along with opencv and repeat the same procedure for pillow.
 
 2) For Ubuntu 16.04
-  A) Softwares
+
+A) Softwares
  
  a) Choregraphe.run file is available from Softbank's site. Just change the permission of this file in properties to "run the file as executable file" and intall it just double clicking like any other normal software.
  
@@ -47,6 +49,7 @@ Locate_Ball_Kick: Codes for making NAO kick redball present anywhere (maximum di
 Penalty_Kick: Codes for making NAO kick redball kick redball kept in front to the goal post, all in line (maximum distance inbetween NAO and goal canot be more than 2 m). Still need further improvement.
 
 ## Addition Deployment Notes
+
 1) Windows
  
  a) For eclipse to run we need to have Windows, JRE and Eclipse trio in either x86 or x64 version
