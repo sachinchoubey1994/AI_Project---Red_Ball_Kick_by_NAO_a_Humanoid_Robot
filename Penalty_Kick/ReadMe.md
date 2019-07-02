@@ -1,13 +1,21 @@
 # Description of the files
 
 config: Setting up the IP and Robot configuration
+
 connection: Loading the NAOqi modules
+
 find_ball: Finding the center of the ball to adjust NAO's position
+
 find_goal: Finding the center of the goal to adjust NAO's angle with respect to it
+
 kick_ball: Function defintion of kick and/or adjust
+
 main: Administrating all other function's as and when required
+
 take_postion: Adjusting NAO's position with respect to goal and/or ball
+
 vision_getandsaveimage: Taking the images of goal post which is black rectangular box of size 50 cm X 20 cm
+
 walk: Tracking of redball
 
 # Running the tests
