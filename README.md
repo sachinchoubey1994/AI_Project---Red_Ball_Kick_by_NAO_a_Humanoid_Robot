@@ -6,16 +6,19 @@ In this project we are programming Nao, a humanoid robot to kick a ball to a goa
 ## Prerequisites
 
 Set of tools deployed
+
 1) For Windows 
   OS: Windows 10
   Softwares: Choregraphe, Python, Pynaoqi-SDK, JRE, Eclipse (or any Python Development IDE)
   Python Libraries: Opencv, Numpy, Pillow
+
 2) For Ubuntu
   OS: Ubuntu 16.04 versions (no other version of Ubuntu works for Choregraphe for linux)
   Software: Choregraphe, Pynaoqi-SDK
   Pyhthon Libraries: Opencv, Numpy, Pillow
   
 ## Installing
+
 1) For Windows
  
  A) Softwares
