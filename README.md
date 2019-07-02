@@ -27,7 +27,8 @@ In this project we are programming Nao, a humanoid robot to kick a ball to a goa
   
   a) Choregraphe: A tool to control and monitor Nao and Pepper Robot. We have used Choregraphe 2.8.5.10 which can be downloaded from Softbanks Robotics website.
   
-  b) Python: We need to install python x86 version as Pynaoqi-SDK is available in x86 version for Windows platform. While installing pyhton we have to check the option to use python as environment variable.
+  b) Python: We need to install python x86 (32 bit) version as Pynaoqi-SDK is available in x86 version for Windows platform. While installing pyhton we have to check the option to use python as environment variable. 
+##### We have used python version 2.7.16.
   
   c) Pynaoqi-SDK: A python library used for programming Nao. Its x86 version can be downloaded from Softbank website.
   
