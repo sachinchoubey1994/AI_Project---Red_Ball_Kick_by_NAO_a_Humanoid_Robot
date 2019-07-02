@@ -52,6 +52,7 @@ Penalty_Kick: Codes for making NAO kick redball kick redball kept in front to th
  a) For eclipse to run we need to have Windows, JRE and Eclipse trio in either x86 or x64 version
  
  b) We need to manually add two file given in this link -- https://www.robotlab.com/support/choregraphe-bin.exe-system-error-fix
+
 2) Ubuntu
  
  In our case adding address of pynaoqi didn't work because of some error So, we linked used Choregraphe's naoqi. We logged in to ubuntu as root user (very risky, if want to do it do it at your own risk) and went to opt folder renamed the folder Softbank Robotics to Softbank. And the further entered in and changed the name of Choregraphe 2.8.5.10 to Choregraphe. Finally, add the address of site-pachages folder as path as we did above for pynaoqi. In this case address would be similar to /opt/Softbank/Choregraphe/Lib/python2.7/site-packages. 
