@@ -3,7 +3,7 @@
 
 In this project we are programming Nao, a humanoid robot to kick a ball to a goal post. The robot first detects the ball using its camera then walk towards it, adjusts itself and finally kicks the ball.
 
-### Prerequisites
+## Prerequisites
 
 Set of tools deployed
 1) For Windows 
@@ -15,7 +15,7 @@ Set of tools deployed
   Software: Choregraphe, Pynaoqi-SDK
   Pyhthon Libraries: Opencv, Numpy, Pillow
   
-### Installing
+## Installing
 1) For Windows
   A) Softwares
   
