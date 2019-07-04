@@ -47,7 +47,7 @@ elif (adjust[0]==0):
 	kick_ball.adjust_right()
 	kick_ball.kick_left()
 time.sleep(5)
-config.PoseInit(motion)
+config.PoseInit(motionProxy)
 	
 	
 
