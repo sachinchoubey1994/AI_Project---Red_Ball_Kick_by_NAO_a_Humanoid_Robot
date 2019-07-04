@@ -4,8 +4,8 @@ import vision_getandsaveimage as vg
 import find_ball as fb
 import kick_ball
 import time
-import take_position
-import walk
+from take_position import *
+import walk 
 walk.moveToRedBall(config.IP,config.PORT)
 vg.showNaoImage(config.IP,config.PORT,0) 
 take_position.take_position()
