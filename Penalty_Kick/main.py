@@ -4,7 +4,7 @@ import vision_getandsaveimage as vg
 import find_ball as fb
 import kick_ball
 import time
-from take_position import *
+import take_position
 import walk 
 walk.moveToRedBall(config.IP,config.PORT)
 vg.showNaoImage(config.IP,config.PORT,0) 
@@ -20,7 +20,7 @@ keys.append([ -0.00158])
 names.append("HeadPitch")
 times.append([ 2.40000])
 keys.append([ 0.51487])
-
+motionProxy = config.loadProxy("ALMotion")
 motionProxy.angleInterpolation(names, keys, times, True);
 
 vg.showNaoImage(config.IP,config.PORT,1)
